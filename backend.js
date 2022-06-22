@@ -4,7 +4,7 @@ const express = require('express');
 const cors = require('cors');
 
 const app = express();
-const port = 3000;
+const port = 3010;
 
 app.use(cors());
 app.listen(port, () => console.log(`Hello world app listening on port ${port}!`))
@@ -22,7 +22,7 @@ const whitelistAddressesOG = [
 ];
 
 const whitelistAddressesWL = [
-  "",
+  "0x810D563f246Af6DF41EbDA8450c1101400D30701",
   ""
 ];
 const whitelistAddressesWHALE = [
