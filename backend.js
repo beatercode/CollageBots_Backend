@@ -16,18 +16,19 @@ app.get('/check/:account/:mode', (req, res) => {
   res.send(ress);
 });
 
-const whitelistAddressesOG = [
+let whitelistAddressesOG = [
   "0x455a89CEaf1dfB149C9Fc166b84E694555b63766",
   "0x8D5E4b486E727Bde6C2ebd5013341aBF82EaF9E9",
-  "0x79741f55A40160DA2930a45eeB498B4F23a46f40"
+  "0x79741f55A40160DA2930a45eeB498B4F23a46f40",
+  "0xb74fb7ACB5FEaA8E65D67DD11D18d0387F26C7ce"
 ];
 
-const whitelistAddressesWL = [
+let whitelistAddressesWL = [
   "0x810D563f246Af6DF41EbDA8450c1101400D30701",
   "0xa49D85a26fcB5b8cA0c78692439591Bc718e2D21",
   "0x968B8F746391c8c17dD4656424FA65eC9CD09aaf"
 ];
-const whitelistAddressesWHALE = [
+let whitelistAddressesWHALE = [
   "0xD5737dD3f79D8E52f44d0F2d2DA60c04430A51C6",
   ""
 ];
